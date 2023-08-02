@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog Website</title>
+
+    <!--External links-->
+    <link rel="stylesheet" type=text/css href="CSS/head.css">
+    <link rel="stylesheet" type=text/css href="CSS/body.css">
+    <link rel="stylesheet" type=text/css href="CSS/footer.css">
+    <link rel="stylesheet" type=text/css href="CSS/responsive.css">
+
+    <!--External links for fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Old+Standard+TT&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@100&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <!--External links for icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="row">
+            <div class="left-column">
+                <p id="logo" href="index.html">LOGO</p>
+            </div>
+            <div class="right-column">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Blog Cards</button>
+                            <div class="dropdown-content">
+                                <a href="mycareer.html">Career Blogs</a>
+                                <a href="codingtips.html">Coding Tips</a>
+                                <a href="myinterest.html">AI Blogs</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--End Of NavBar-->
+
+    <section class="section-banner">
+        <div class="banner">
+            <div class="banner-content">
+                <h1>AI Blog Tips</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-career-container">
+        <div class="blog-heading">
+            <h1>1. Open AI</h1>
+        </div>
+        <div class="blog-avatar"><img src="images/avatar/avatar-female.png" alt="avatar"></div>
+
+        <div class="blog-details">
+            <p>OpenAI comes from industry experts who want to bring AI to the masses. It's linked to the non-profit
+                research company OpenAI, co-chaired by Elon Musk and Sam Altman, are trying to make AI accessible—hence
+                the name.</p>
+
+            <div class="source">Reference - <a
+                    href="https://www.tableau.com/learn/articles/blogs-about-machine-learning-artificial-intelligence">https://www.tableau.com/learn/articles/blogs-about-machine-learning-artificial-intelligence</a>
+            </div>
+        </div>
+        <div class="blog-avatar-name">Gale Keller - Researcher at Search Corp.</div>
+        <div class="blog-subscription">
+            <ul class=blog-social-links>
+                <li><a href="contact.html" class="fa fa-facebook"></a></li>
+                <li><a href="contact.html" class="fa fa-linkedin"></a></a></li>
+                <li><a href="contact.html" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section-career-container">
+        <div class="blog-heading">
+            <h1>2. Distill</h1>
+        </div>
+        <div class="blog-avatar"><img src="images/avatar/avatar-man.png" alt="avatar"></div>
+
+        <div class="blog-details">
+            <p>Distill concentrates on making ML and AI more accessible for readers. Traditional research can be
+                difficult to consume, so Distill communicates ML research in appealing, interactive data visualizations.
+                It acts as a neutral platform for multiple authors to publish together, and articles are peer-reviewed,
+                appearing in</p>
+
+            <div class="source">Reference - <a href="https://distill.pub/">https://distill.pub/</a></div>
+        </div>
+        <div class="blog-avatar-name">Zach Hall - Python Developer at Python Club</div>
+        <div class="blog-subscription">
+            <ul class=blog-social-links>
+                <li><a href="contact.html" class="fa fa-facebook"></a></li>
+                <li><a href="contact.html" class="fa fa-linkedin"></a></a></li>
+                <li><a href="contact.html" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section-career-container">
+        <div class="blog-heading">
+            <h1>3. The BAIR Blog</h1>
+        </div>
+        <div class="blog-avatar"><img src="images/avatar/avatar-female.png" alt="avatar"></div>
+
+        <div class="blog-details">
+            <p>The artificial intelligence research department at UC Berkeley created this blog to convey research
+                findings and important information about their AI-related work. Covering a spectrum of research—from
+                natural language processing to robotics—grad students.</p>
+            <div class="source">Reference - <a href="https://bair.berkeley.edu/">https://bair.berkeley.edu/</a>
+            </div>
+        </div>
+        <div class="blog-avatar-name">Elaine Hayward - AI Expert at StartUp</div>
+        <div class="blog-subscription">
+            <ul class=blog-social-links>
+                <li><a href="contact.html" class="fa fa-facebook"></a></li>
+                <li><a href="contact.html" class="fa fa-linkedin"></a></a></li>
+                <li><a href="contact.html" class="fa fa-twitter"></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="subscription-container">
+        <div class="subscription-heading">
+            <h1>Subscribe</h1>
+        </div>
+        <form class="subscription-form">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+            <label for="lname">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="Your email address">
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+</body>
+
+<!--Start Of Footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="row-container">
+            <div class="item">
+                <h3 class="services">Blogs</h3>
+                <ul class="ul-footer">
+                    <li class="li-footer"><a href="mycareer.html" class="a-footer">Career Blogs</a></li>
+                    <li class="li-footer"><a href="codingtips.html" class="a-footer">Coding Tips</a></li>
+                    <li class="li-footer"><a href="myinterest.html" class="a-footer">A.I. Blogs</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3 class="about">About</h3>
+                <ul class="ul-footer">
+                    <li class="li-footer"><a href="about.html" class="a-footer">Company</a></li>
+                    <li class="li-footer"><a href="about.html" class="a-footer">Team</a></li>
+                    <li class="li-footer"><a href="about.html" class="a-footer">Careers</a></li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3>Contact Us</h3>
+                <div class="company-content">
+                    <ul class="contact-icons-footer">
+                        <li><i class="material-icons">location_on</i>Makati City, Philippines</li>
+                        <li><i class="material-icons">call</i>+63 9178856327</li>
+                        <li><i class="material-icons">mail</i>josiah_matela@yahoo.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                        class="icon ion-social-twitter"></i></a><a href="#"><i
+                        class="icon ion-social-snapchat"></i></a><a href="#"><i
+                        class="icon ion-social-instagram"></i></a></div>
+        </div>
+        <p class="copyright">Copyright &#169 2021</p>
+    </div>
+</footer>
+<!--End Of Footer-->
+
+</html>

@@ -1,0 +1,528 @@
+/*start of index css*/
+body {
+    margin:0px;
+    padding: 0px;
+}
+
+body, html {
+    height: 100%;
+
+}
+#logo {
+    color: white;
+    padding-left: 25px;
+    font-size: 21px;
+}
+
+a {
+    text-decoration: none;
+    color: #f19e36;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    color:white;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: 3;
+}
+
+.dropbtn {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown > button {
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    color:#f19e36;
+}
+
+.dropdown > button:hover {
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: #f19e36;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {color: white}
+  
+.dropdown:hover .dropdown-content {
+        display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+
+.row {
+    display: flex;
+    width:100%;
+    flex-direction: row;
+}
+
+.left-column {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 50%; 
+  float: left;
+}
+
+.right-column {
+ justify-content: flex-end;
+ width: 50%; 
+ float: right;
+ text-align: right;
+ padding: 14px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display:inline-block;
+    color: white;
+    margin: 0;
+    padding: 10px 30px 10px 30px;
+    text-transform:none;
+}
+
+.banner{
+    background-color: white;
+    background-image: url("../images/backgrounds/heading1.png");
+    width: 100%;
+    height:786px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 80%;
+    font-style: bold;
+    -webkit-box-shadow: 11px 4px 50px 5px rgba(0,0,0,0.47); 
+    box-shadow: 11px 4px 50px 5px rgba(0,0,0,0.47);
+}
+
+.banner-content{
+ 
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 350px;
+    width:33%;
+    left: 35%;
+    text-align:center;
+    vertical-align: 10px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:7px;
+    -webkit-box-shadow: 11px 4px 50px 5px rgba(0,0,0,0.47); 
+    box-shadow: 11px 4px 50px 5px rgba(0,0,0,0.47);
+}
+
+.banner-content-paragraph{
+    margin-top: -45px;
+}
+
+
+.blogcards{
+    flex-direction: row;
+    display: flex;
+}
+
+.blogcard{
+ 
+    font-size: 19px;
+    top: 508px;
+    width:37%;
+    left: 35%;
+    text-align:center;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    -webkit-box-shadow: 4px 3px 38px -12px #000000; 
+    box-shadow: 4px 3px 38px -12px #000000;
+    font-family: 'Kaisei Tokumin', serif;
+    flex-direction: row;
+    margin: 61px;
+} 
+
+.blogheader {
+    font-family: 'Playfair Display', serif;
+    color: #f19e36;
+}
+
+.blog-post-card-image {
+    width: 100%;
+    height:292px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    
+}
+
+button {
+    background-color: #f19e36;
+    border: 1px;
+    margin-bottom: 10px;
+    border-radius: 200px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    color:black;
+    background-color: #f19e36;
+}
+
+
+
+#blog-post-card-image1 {
+    background-image: url("../images/blogpostcard/Career.png");
+
+}
+#blog-post-card-image2 {
+    background-image: url("../images/blogpostcard/CodingTips.png");
+}
+
+#blog-post-card-image3 {
+    background-image: url("../images/blogpostcard/AI.png");
+}
+
+/*end of index css*/
+
+
+/* start of contact css */
+
+.section-container {
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/backgrounds/contactUs.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 400px 800px;
+    color: #444;
+    margin: auto;
+    position: relative;
+    top: 222px;
+    left:-2px;
+    width: 58%;
+}
+  
+.box {
+
+      background-color: black;
+      color: #f19e36;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 120%;
+      font-family: 'Roboto', sans-serif;
+      border:3px solid white;
+      background: transparent;
+}
+  
+.contact-details {
+		grid-column: 1;
+		grid-row: 1;
+}
+
+.contact-details > h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form {
+		grid-column: 2 / 2  ;
+		grid-row: 1 ;
+}
+
+#subject {
+    height: 200px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: #f19e36;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 41%;
+}
+  
+input[type=submit]:hover {
+    background-color: white;
+    color: #f19e36;
+}
+  
+
+/*end of contact css*/
+
+
+/*start career blog tips css*/
+.section-career-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Heading Heading Heading"
+      "Avatar details details"
+      "blog-avatar-name blog-subscription blog-subscription";
+      width: 50%;
+      position: relative;
+      left: 26%;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      height: 320px;
+      background-color: black;
+      color:white;
+      -webkit-box-shadow: 4px 3px 38px -12px #000000; 
+      box-shadow: 4px 3px 38px -12px #000000;
+  }
+  
+.blog-heading, 
+.blog-avatar-name,
+.blog-subscription  {
+    grid-area: Heading; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#f19e36;
+    font-weight: bold;
+ }
+  
+
+.blog-avatar { 
+    grid-area: Avatar; 
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+
+  
+.blog-avatar > img {
+    background-size: cover;
+    position: relative;
+    left: 6%;
+    top: -7px;
+}
+
+  .blog-details { 
+      grid-area: details; 
+      background-color: black;
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+      text-align: justify;
+      position: relative;
+      padding-top: 59px;
+      padding-right: 58px;
+}
+  
+  .blog-avatar-name { 
+    grid-area: blog-avatar-name; 
+    padding: 8px;
+}
+  
+  .blog-subscription { 
+      grid-area: blog-subscription; 
+}
+
+.blog-social-links > li {
+    padding: 8px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: -10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+}
+  
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.source {
+    text-align: right;
+    font-size: 15px;
+}
+
+.subscription-container {
+    width: 50%;
+    position: relative;
+    left: 26%;
+    margin-bottom: 100px;
+    background-color: #f19e36;
+} 
+   
+.subscription-heading { 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f19e36;
+    text-align: center;
+    color:white;
+}
+
+.subscription-heading > h1{
+    position: relative;
+    top: 20px;
+}
+
+.subscription-form { 
+    background-color: black;
+    color: white;
+    grid-area: Form; 
+    position: relative;
+    margin: 0px;
+    top: 18px;
+    height: 285px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #f19e36;
+    -webkit-box-shadow: 4px 3px 38px -12px #000000; 
+    box-shadow: 4px 3px 38px -12px #000000;
+} 
+  
+/*end of career blog tips css*/
+
+
+/*start of about me css*/
+.about-me-background {
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/light-paper-fibers.png");
+}
+
+.about-me-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "about-me-details avatar-pic-bg avatar-pic-bg"
+      "about-me-details avatar-pic-bg avatar-pic-bg";
+
+    width: 100%;
+    height: 960px;
+    position: relative;
+    top: 120px;
+    left: 221px;
+    margin-bottom: 73px;
+    text-align: left;
+    align-content: center;
+  }
+  
+.about-me-details > h1 {
+
+    font-family: 'Playfair Display', serif;
+}
+.about-me-details > h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.about-me-details { 
+    grid-area: about-me-details; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.avatar-pic-bg {
+    background-image: url("../images/backgrounds/aboutmebg.png");
+}
+  
+
+.avatar-pic-bg1 {
+    background-image: url("../images/backgrounds/teambg.png");
+}
+  
+
+.avatar-pic-bg2 {
+    background-image: url("../images/backgrounds/careersbg.png");
+}
+  
+
+.avatar-pic-bg, .avatar-pic-bg1, .avatar-pic-bg2{ 
+    grid-area: avatar-pic-bg; 
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    height: 609px;
+    width: 100%;
+    margin: 30px;
+    padding-right: 20px;
+    align-self: center;
+}
+
+/*end of about me css*/

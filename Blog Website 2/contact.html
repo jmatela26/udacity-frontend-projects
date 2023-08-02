@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Blog Website</title>
+
+  <!--External links-->
+  <link rel="stylesheet" type=text/css href="CSS/head.css">
+  <link rel="stylesheet" type=text/css href="CSS/body.css">
+  <link rel="stylesheet" type=text/css href="CSS/footer.css">
+  <link rel="stylesheet" type=text/css href="CSS/responsive.css">
+
+  <!--External links for fonts-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Old+Standard+TT&family=Roboto:wght@100;300&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@100&family=Playfair+Display&display=swap"
+    rel="stylesheet">
+
+  <!--External links for icons-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="row">
+      <div class="left-column">
+        <p id="logo" href="index.html">LOGO</p>
+      </div>
+      <div class="right-column">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li> <div class="dropdown">
+            <button class="dropbtn">Blog Cards</button>
+            <div class="dropdown-content">
+            <a href="mycareer.html">Career Blogs</a>
+            <a href="codingtips.html">Coding Tips</a>
+            <a href="myinterest.html">AI Blogs</a>
+            </div>
+          </div>
+           
+          </li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--End Of NavBar-->
+
+
+  <section class="section-container">
+    <div class="section-wrapper">
+      <div class="box contact-details">
+        <h1>Contact Us</h1>
+        <ul class="contact-icons">
+          <li><i class="material-icons">location_on</i> Makati City, Philippines</li>
+          <li><i class="material-icons">call</i> +63 9178856327</li>
+          <li><i class="material-icons">mail</i> josiah_matela@yahoo.com</li>
+        </ul>
+      </div>
+      <div class="box contact-form">
+        <form action="">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+          <label for="lname">Email Address</label>
+          <input type="text" id="email" name="email" placeholder="Your email address">
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something."></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+
+<!--Start Of Footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="row-container">
+      <div class="item">
+        <h3 class="services">Blogs</h3>
+        <ul class="ul-footer">
+          <li class="li-footer"><a href="mycareer.html" class="a-footer">Career Blogs</a></li>
+          <li class="li-footer"><a href="codingtips.html" class="a-footer">Coding Tips</a></li>
+          <li class="li-footer"><a href="myinterest.html" class="a-footer">A.I. Blogs</a></li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3 class="about">About</h3>
+        <ul class="ul-footer">
+          <li class="li-footer"><a href="about.html" class="a-footer">Company</a></li>
+          <li class="li-footer"><a href="about.html" class="a-footer">Team</a></li>
+          <li class="li-footer"><a href="about.html" class="a-footer">Careers</a></li>
+        </ul>
+      </div>
+      <div class="company">
+        <h3>Contact Us</h3>
+        <div class="company-content">
+          <ul class="contact-icons-footer">
+            <li><i class="material-icons">location_on</i>Makati City, Philippines</li>
+            <li><i class="material-icons">call</i>+63 9178856327</li>
+            <li><i class="material-icons">mail</i>josiah_matela@yahoo.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+            class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a
+          href="#"><i class="icon ion-social-instagram"></i></a></div>
+    </div>
+    <p class="copyright">Copyright &#169 2021</p>
+  </div>
+</footer>
+<!--End Of Footer-->
+
+</html>

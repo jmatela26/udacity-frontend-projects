@@ -1,0 +1,238 @@
+/*Banner header and content*/
+@media only screen and (min-width:320px) and (max-width: 1000px) {
+    .banner-content {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1982px) {
+
+    .banner-content {
+        width: 47%!important;
+        left: 27%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1418px) {
+
+    .banner-content {
+        width: 60%!important;
+        left: 22%;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 1100px) {
+    .right-column > ul > li {
+        padding: 10px 30px 10px 11px;
+    }
+}
+
+/*About me responsive*/
+@media only screen and (min-width:320px) and (max-width: 1488px) {
+    .about-me-details {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width: 1920px) {
+    .about-me-details {
+        font-size: 20px;
+    }
+
+    .avatar-pic-bg, .avatar-pic-bg1, .avatar-pic-bg2 {
+        background-size: 900px;
+        width: 95%;
+    }
+
+    .about-me-container {
+        height: 635px;
+        position: relative;
+        left: 10%;
+    }
+
+    .about-me-container{
+        width: 86%!important;
+    }  
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 1367px) {
+    .about-me-details {
+        font-size: 17px;
+    }
+
+    .avatar-pic-bg, .avatar-pic-bg1, .avatar-pic-bg2 {
+        background-size: 690px;
+    }
+
+}
+
+@media only screen and (min-width:320px) and (max-width: 1069px) {
+    .avatar-pic-bg, .avatar-pic-bg1, .avatar-pic-bg2 {
+        background-size: 600px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width: 1031px) {
+
+    .about-me-container {
+        left: 6%;
+    }
+} 
+
+
+/*Blog cards*/
+@media only screen and (min-width: 687px) {
+
+    .blogcards {
+        width: 100%;
+    }
+
+    .blogcard {
+        font-size: 15px;
+    }
+
+    .blogcard > p {
+        padding: 15px;
+        margin: 0px;
+    }
+}
+
+
+/*Footer company*/
+@media only screen and (min-width: 320px) and (max-width:1888px) {
+    .company {
+         width: 18%!important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1788px) {
+    .company {
+        width: 24%!important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:1339px) {
+    .company {
+        width: 30%!important;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width:1121px) {
+    .company {
+        width: 37%!important;
+    }
+}
+
+/* Contact Us */
+@media only screen and (min-width: 320px) and (max-width:1786px)  {
+    .section-wrapper {
+        left: 13px;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:1727px) {
+    .section-wrapper {
+        left: 7px!important;
+        width: 67%!important;
+        grid-template-columns: 242px 590px;
+    }
+    .box {
+        font-size: 103%;
+    }
+    .contact-icons > li {
+        font-size: 80%;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:1065px) {
+    .section-wrapper {
+        left: -50px!important;
+    }
+    .box {
+        font-size: 20px;
+    }
+    .contact-icons > li {
+        padding: 0px;
+    }
+}
+
+/*Blog avatar and posts*/
+@media only screen and (min-width:320px) and (max-width:1920px) {
+
+    .blog-avatar-name {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:1878px) {
+
+    .blog-avatar-name {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .blog-details > p{
+        font-size: 17px;
+    }
+
+    .fa {
+        height: 29px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:1658px) {
+
+    .blog-details > p{
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .blog-avatar {
+        height: 256px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:964px) {
+
+    .blog-avatar {
+        height: 264px;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:1362px) {
+    .section-career-container {
+        width: 65%;
+        left: 18%;
+    }
+    .blog-details { 
+        padding-top: 42px;
+        padding-right: 28px;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:1046px) {
+    .blog-details > p{
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:1141px) {
+    .blog-post-card-image {
+        height: 151px;
+        background-size: contain;
+    }
+}
+
+
