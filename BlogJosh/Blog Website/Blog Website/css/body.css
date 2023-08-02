@@ -1,0 +1,422 @@
+@import "../css/head.css";
+@import "../css/responsive.css";
+@import "../css/footer.css";
+
+/* ------------- start of global css ----------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    min-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #f19e36;
+    font-size: 17px;
+}
+
+a:hover {  color:white; }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display:inline-block;
+    color: white;
+    margin: 0;
+    padding: 10px 30px 10px 30px;
+    text-transform:none;
+}
+
+figcaption {
+    text-align: center;
+    color: #fff;
+    margin: 5%;
+}
+
+/* ------------- end of global css ------------ */
+
+/* ------------- start of home css ----------- */
+/* banner section */
+.banner{
+    background-image: url("../images/backgrounds/heading1.png");
+    width: 100%;
+    height:710px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 80%;
+    font-style: bold;
+    -webkit-box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.125); 
+    box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.15);
+}
+
+.career-banner{
+    background-image: url("../images/backgrounds/heading2.jpg");
+    width: 100%;
+    height:710px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 80%;
+    font-style: bold;
+    -webkit-box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.125); 
+    box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.15);
+}
+
+.ai-banner{
+    background-image: url("../images/backgrounds/header4.jpg");
+    width: 100%;
+    height:710px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 80%;
+    font-style: bold;
+    -webkit-box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.125); 
+    box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.15);
+}
+
+.coding-banner{
+    background-image: url("../images/backgrounds/header3.jpg");
+    width: 100%;
+    height:710px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 80%;
+    font-style: bold;
+    -webkit-box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.125); 
+    box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.15);
+}
+
+.about-banner{
+    background-image: url("../images/backgrounds/header5.jpg");
+    width: 100%;
+    height:710px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 80%;
+    font-style: bold;
+    -webkit-box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.125); 
+    box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.15);
+}
+
+.contact-banner{
+    background-image: url("../images/backgrounds/header6.jpg");
+    width: 100%;
+    min-height:850px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 80%;
+    font-style: bold;
+    -webkit-box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.125); 
+    box-shadow: 5px 3px 12px 2px rgba(0,0,0,0.15);
+}
+
+.banner-content{
+    font-size: 45px;
+    position: relative;
+    top: 75%;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:7px;
+} 
+
+.banner-content > h1, .banner-content > p {
+    text-shadow: 2px 6px 4px #00000054;
+}
+
+/*  ----------- end of banner css --------- */
+/*  ----------- start flex system --------- */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+  
+
+.flex-item-three {
+    background-color: #f1f1f1;
+    flex: 33.3%;
+    margin: 20px;
+    text-align: center;
+}
+
+.flex-item-two {
+    background-color: #f1f1f1;
+    flex: 48%;
+}
+
+/*  ----------- end flex system --------- */
+
+/*  ----------- start of blog --------- */
+.blogheader-container {   margin: 8% 15%; }
+
+.blogheader {
+    font-family: 'Raleway', sans-serif;
+    color: #f19e36;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.blog-post-card-image {
+    width: 100%;
+    height:292px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#blog-post-card-image1 {
+    background-image: url("../images/blogpostcard/Career.png");
+
+}
+#blog-post-card-image2 {
+    background-image: url("../images/blogpostcard/CodingTips.png");
+}
+
+#blog-post-card-image3 {
+    background-image: url("../images/blogpostcard/AI.jpg");
+}
+/*  ----------- end of blog --------- */
+
+/* ----- start of button ---- */
+button, .btn-blogheader {
+    background-color: #f19e36;
+    border: 1px;
+    border-radius: 200px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover, .btn-blogheader:hover{
+    color:#fff;
+    background-color: #f19e36;
+    box-shadow: 1px 4px 8px #00000075;
+}
+
+/* ----- end of button ---- */
+
+/*  ------------- grid system ---------------- */
+/*  section grid  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  column grid  */
+.col {
+	display: block;
+    float: left;
+}
+
+/*  group grid  */
+.group:before, .group:after {
+	content:"";
+	display:table;
+}
+
+.group:after {	clear:both; }
+.group { zoom:1;  }
+
+/*  grid of three  */
+.span-1-of-3 {    
+    width: 28%;
+    background-color: #000;
+    margin: 2%; 
+    box-shadow: -2px 3px 5px #8c8c8c5c;
+    min-height: 800px;
+}
+
+.span-1-of-1 {    
+    width: 100%;
+    margin: 2%; 
+}
+
+.span-1-of-2-a {    
+    width: 20%;
+    background-color: #000000cf;
+    margin: 2%; 
+    box-shadow: 0px 4px 12px 5px #312e2eb8;
+}
+
+.span-1-of-2-b {    
+    width: 50%;
+    background-color: #000000cf;
+    margin: 2%; 
+    box-shadow: 0px 4px 12px 5px #312e2eb8;
+}
+
+
+/*  ------------- start of career css ---------------- */
+.career-container {   margin: 8% 5%; }
+
+.blog-heading {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    background-color: #f19e36;
+}
+
+.blog-avatar {
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 30px 0;
+}
+
+.blog-avatar img {
+    width: 200px!important;
+    border-radius: 100%;
+    height: 200px!important;
+}
+
+.blog-details {
+    padding: 5% 10% 5% 10%;
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid #f2f2f240;
+}
+
+blockquote {
+    margin-bottom: 5%;
+}
+
+.blog-avatar-name {
+    text-align: center;
+    color: #ffff;
+    border: 1px solid #f2f2f240;
+    PADDING: 9PX;
+}
+
+ul.blog-social-links {
+    display: inline-block;
+    margin: 3% 33%;
+}
+
+ul.blog-social-links li{
+   padding:0;
+}
+
+.subscription-container {
+    margin: 0 15% 5% 16%;
+    background-color: #d4d4d4;
+    box-shadow: -1px 4px 5px 1px #8e8e8e78;
+}
+
+.subscription-heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2%;
+}
+
+input[type=text], select, textarea {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+::placeholder {
+    color: #f19e36;
+    text-transform: uppercase;
+}
+  
+input[type=submit] {
+    background-color: #f19e36;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+  
+input[type=submit]:hover {
+    background-color: white;
+    color: #f19e36;
+}
+  
+
+/*  ------------- end of career css ---------------- */
+
+/*  ------------- start of about me css ---------------- */
+
+.about-me-details {
+    padding: 80px;
+}
+
+.about-me-details > h1, .about-me-details > h2{
+    margin-bottom:10px;
+}
+
+.about-me-details > p {
+    font-size: 19px;
+}
+
+.avatar-pic1 > img {
+    width: 100%;
+    height: 500px;
+}
+
+/*  ------------- end of about me css ---------------- */
+
+/*  ------------- start of contact css ---------------- */
+
+.contact-container {
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+  
+.box {
+    background-color: black;
+    color: #f19e36;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    min-height:600px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-details > h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#subject {
+    height: 200px;
+}
+
+/*end of contact css*/

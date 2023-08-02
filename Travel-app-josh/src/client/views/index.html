@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
+</head>
+
+<body>
+    <div class="section">
+        <div class="col grid_1_of_1" id="Title">TRAVEL APP</div>
+    </div>
+
+    <div class="section">
+        <div class="col grid_1_of_2"><img src="https://cdn.pixabay.com/photo/2016/08/10/12/44/zakynthos-1583127_640.jpg"
+                alt="Zakynthos, Greece" id="img-city-photo" /> </div>
+        <div class="col grid_1_of_2">
+
+            <div class="section">
+                <div class="col grid_1_of_2">GOING TO: </div>
+                <div class="col grid_1_of_2"><input type="text" id="goingTo" name="goingTo" placeholder="Enter a city e.g. New York">
+                </div>
+            </div>
+
+
+            <div class="section">
+                <div class="col grid_1_of_2">DATE FROM: </div>
+                <div class="col grid_1_of_2"><input type="date" id="thisDate" name="dates"> </div>
+            </div>
+
+
+            <div class="section">
+                <div class="col grid_1_of_2">DATE TO: </div>
+                <div class="col grid_1_of_2"><input type="date" id="thisDateTo" name="dates"> </div>
+            </div>
+
+            <div class="section">
+                <div class="col grid_1_of_2">
+                    <button type="button" id="button1">Save Trip</button>
+                    <button type="button" id="remove">Remove</button>
+                </div>
+            </div>
+
+            <div id="results"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="col grid_1_of_1">
+            <p>Copyright &#169 2021</p>
+        </div>
+        <footer>
+            <script>
+                // Check that service workers are supported
+                if ('serviceWorker' in navigator) {
+                    // Use the window load event to keep the page load performant
+                    window.addEventListener('load', () => {
+                        navigator.serviceWorker.register('/service-worker.js');
+                    });
+                }
+            </script>
+</body>
+</html>

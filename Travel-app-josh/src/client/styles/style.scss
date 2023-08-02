@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Old+Standard+TT&family=Roboto:wght@100;300&display=swap");
+
+//Variables
+$font-stack: 'Roboto';
+$primary-color: #132880;
+$secondary-color: #a7dcf0;
+$hover-color: #75E6DA;
+$white-color: White;
+$title-size: 70px;
+$dark-gray: #605f5f;
+
+/* Section */
+html {
+    font-family: $font-stack;
+}
+
+
+.section {
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* Column */
+  
+  .col {
+    background: $white-color;
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+  }
+  
+  .col:first-child { margin-left: 0 !important; }
+  
+  /* Row */
+  .row:before,
+  .row:after { content:""; display:table; }  
+  .row:after { clear:both;}
+  .row { zoom:1; /* For IE 6/7 */ }
+  
+  
+  /* Grid */
+  .grid_1_of_1 {
+       width: 100%;
+       background-color: $primary-color;
+       color:$white-color;
+    }
+  .grid_1_of_2 { 
+      width: 49.2%;
+
+      color: $white-color;
+ }
+
+  html, .grid_1_of_2 {
+    background-color: $secondary-color;
+    color: black;
+  }
+
+
+  .col > img {
+    height: 60vh;
+    width: 100%;
+  }
+
+  #title{
+    font-size: 70px;
+    padding: 20px;
+  }
+
+  button {
+    background-color: $primary-color;
+    position:relative;
+    cursor: pointer;
+    color: $white-color;
+    border-radius: 10px;
+    &:hover { 
+      background-color:$hover-color;
+    }
+}
+
+#Title {
+  font-size: $title-size;
+  font-family: $font-stack;
+  background-color: $primary-color;
+  position: relative;
+  text-align: center;
+  margin: 0px;
+}
+
+#foreCastIcon{
+  height:2em;
+  vertical-align: middle;
+}
+
+  footer  {
+    position: fixed;
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $primary-color;
+    color: $white-color;
+    text-align: center;
+  }
+  
+
+  
+  /* Full Width below 768 pixels */
+  @media only screen and (max-width: 768px) {
+    .col {  margin: 1% 0 1% 0%; }
+    [class*='grid_'] { width: 100%; }
+
+    footer {
+      position:relative;
+    }
+  }

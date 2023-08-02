@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Sentiment Analyzer</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="Logo">
+                <strong>Sentiment Analyzer</strong>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form class="form1" onsubmit="return handleSubmit(event)">
+                    <input id="article-url" type="text" name="input" value="" placeholder="Enter a url">
+                    <input id="btn-submit" type="submit" name="button" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                    <form class="form2" onsubmit="return clearFields(event)">
+                        <input id="btn-clear" type="submit" name="clear" value="clear" onclick="return Client.clearFields(event)" onsubmit="return clearFields(event)">
+                    </form>
+                </form>
+           
+            </section>
+
+    
+
+            <section>
+                <strong>Form Results:</strong>
+                <div id="agreement"></div>
+                <div id="subjectivity"></div>
+                <div id="confidence"></div>
+                <div id="irony"></div>
+                <div id="score_tag"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright &#169 2021</p>
+        </footer>
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('./service-worker.js');
+                });
+            }
+        </script>
+    </body>
+</html>
