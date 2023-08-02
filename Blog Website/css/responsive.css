@@ -1,0 +1,62 @@
+@media only screen  and (min-device-width: 280px)  and (max-device-width: 700px) {
+
+    .row { display: flow-root; }
+
+    .left-column {  
+        width: 100%!important;
+        text-align: center;
+        margin-top: 25px; 
+    }
+
+    .right-column { 
+        width: 100%!important; 
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+    .right-column li {  padding: 10px 5px;}
+    .right-column li a {  font-size: 12px; }
+    .dropdown > button {  font-size: 12px; }
+    
+    .banner, .career-banner {  height: 550px!important; }
+    .banner-content {
+        font-size: 30px!important;
+        top: 40%!important;
+        letter-spacing: 0;
+        background-color: #000000bf!important;
+        margin: 21px;
+        padding: 20px;
+        letter-spacing: 0!important;
+    }
+
+    .banner-content > h1, .banner-content > p { color:#fff!important;}
+    .flex-container, .footer-container { flex-direction: column!important; }
+    .footer-box > h3, li.li-footer { text-align: center!important; }
+    .span-1-of-3, .span-1-of-2-a, .span-1-of-2-b {width: 100%!important;}
+    .blog-avatar {width: 50%!important;}
+    .source { word-break: break-all; }
+    ul.blog-social-links {margin: 3% 28%!important;}
+    .subscription-container {margin: 8%!important; }
+    .contact-container { top:120px!important;left:0!important;  margin: 5px 20px 5px 10px;}
+    .box  {   min-height:300px!important }
+    .contact-banner {   min-height: 1200px!important; }
+    .contact-icons > li { padding:5px!important;}
+}
+
+@media only screen  and (min-device-width: 720px) and (max-device-width: 1024px)  {
+
+    .left-column {  width: 20%; }
+    .right-column { width: 80%; }
+    .right-column li {padding: 10px; }
+    .banner {  height: 550px!important; }
+    .banner-content {top: 60%!important;}
+    .flex-container, .footer-container { flex-direction: column!important; }
+    .footer-box > h3, li.li-footer { text-align: center!important; }
+    .span-1-of-3, .span-1-of-2-a, .span-1-of-2-b {width: 100%!important;}
+    .subscription-container {margin: 10%!important; }
+    .contact-container { top:120px!important;left:0!important;  margin: 5px 20px 5px 10px;}
+    .box  {   min-height:300px!important }
+    .contact-banner {   min-height: 1200px!important; }
+    .contact-icons > li { padding:10px 20px!important;}
+    
+}

@@ -1,0 +1,40 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin: 0px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30%;
+    padding: 30px 0;
+}
+  
+.footer-box{  flex: 33.3%; text-transform: uppercase;}
+.footer-box > h3 { text-align:left;}
+.ul-footer li{
+    display: block;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #f19e36;
+    font-size: 13px!important;
+}
+
+.ul-footer li > a {font-size: 13px!important; }
+.copy-container {
+    padding: 20px;
+    border-top: 1px solid #f2f2f22e;
+}
+
+.copyright{ text-align: center; }
+i.material-icons {  
+    vertical-align: middle; 
+    margin-right: 5px;
+    font-size: 20px;
+}
